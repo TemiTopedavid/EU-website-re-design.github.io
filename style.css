@@ -485,26 +485,36 @@ margin-left: 10px;
 
 
 .Human h3{
-	font-size: 30px;
+	font-size: 20px;
 	border: 1px solid grey;
-	padding: 30px;
+	padding: 20px;
 	border-radius: 5px ;
 }
 
 .Entring h3{
 	margin-left: 150px;
-	font-size: 30px;
+	font-size: 20px;
 	border: 1px solid grey;
-	padding: 30px;
+	padding: 20px;
 	border-radius: 5px;
 }
 
 .Discipline h3{
 	margin-left: 200px;
-	font-size: 30px;
+	font-size: 20px;
 	border: 1px solid grey;
-	padding: 30px;
+	padding: 20px;
 	border-radius: 5px ;
+}
+
+.leader h3{
+	margin-left: 200px;
+	font-size: 20px;
+	border: 1px solid grey;
+	padding: 20px;
+	border-radius: 5px ;
+	
+	
 }
 
 .offering h3:hover{
@@ -833,80 +843,99 @@ margin-left: 10px;
 	}
 
 	#programs h2{
-	font-size: 12px;
+	font-size: 20px;
 	color: #f3a93d;
 	margin-left: 3px;
 	}
 
 	#programs h3{
-		font-size: 12px;
+		font-size: 15px;
 		margin-left: 3px ;
 	}
 
-	#programs p{
-		margin-left: 6px ;	
-	}
-
 	.program{
-		display: flex;
-		padding: 20px;
-		padding-left: 40px;
+		display: block;
+		width: auto;
 		color:black;
 		margin-top: -11px;
 		padding-bottom: -70px;
+		text-align: center;
 	}
 
 	.classrooms{
-		word-break: break-all;
+		margin-top: 10px;
+		margin-left: -50px;
 	}
 
 	.scholarships{
-		word-break: break-all;
+		margin-top: 10px;
+		margin-left: -50px;
 	}
 
 	.internet{
-		margin-left: -33px;
-		word-break: break-all;
+		margin-left: -50px;
+		margin-top: 10px;
 	}
 
 
 
 	/******WHAT WE OFFER******/
+	#offer{
+		display: block;
+	}
 	.All-offer h2{
-		margin-left: 5px;
 		color: #f3a93d;
 		font-size: 15px;
 		margin-top: 20px;
 	}
 	
 	.offering{
-		display: flex;
-		padding: 15px;
-		
-		
+		display: block;
+		font-size: 10px;
 	}
 	.Human h3{
 		font-size: 12px;
 		border: 1px solid grey;
-		padding: 15px;
-		border-radius: 5px ;
-		
-	
+		border-radius: 5px;
+		width: 200px;
+		height: 25px;
+		padding-top: 20px;
+		padding-bottom: 30px;
 	}
 	.Entring h3{
-		margin-left: 50px;
-		font-size: 12px;
-		border: 1px solid grey;
-		padding: 15px;
-		border-radius: 5px ;
+		margin-top: 30px;
+		height: 30px;
+		padding-top: 20px;
+		margin-left: 1px;
+		font-size: 12px; 
+		width: 200px;
+		height: 25px;
+		/* border: 1px solid grey; */
+		 /* border-radius: 5px ; */
+		 padding-bottom: 30px;
 	}
 	
 	.Discipline h3{
-		margin-left: 30px;
-		font-size: 12px;
-		border: 1px solid grey;
-		padding: 15px;
-		border-radius: 5px ;
+		margin-top: 30px;
+		height: 30px;
+		padding-top: 20px;
+		margin-left: 1px;
+		font-size: 12px; 
+		width: 200px;
+		height: 25px;
+		padding-bottom: 30px;
+	}
+	.leader h3{
+		margin-top: 30px;
+		height: 30px;
+		padding-top: 20px;
+		margin-left: 1px;
+		font-size: 12px; 
+		width: 200px;
+		height: 25px;
+		padding-bottom: 30px;
+		
+
 	}
 
 	.offering h3:hover{
@@ -916,8 +945,7 @@ margin-left: 10px;
 		border: 10px;
 		transition: 0.2s;
 	}
-
-
+	
 
 	/******CONTACT INFO******/
 	.contact-info{
